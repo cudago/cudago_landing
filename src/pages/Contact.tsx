@@ -142,8 +142,8 @@ export const Contact = () => {
                 <div>
                   <h4 className="font-extrabold text-on-surface text-base mb-1">Email Support</h4>
                   <p className="text-sm text-on-surface-variant mb-1">Send us an email anytime and we will respond within 24 hours.</p>
-                  <a href="mailto:support@cudago.com" className="text-sm text-primary font-bold hover:underline">
-                    support@cudago.com
+                  <a href="mailto:cudagoplatform@gmail.com" className="text-sm text-primary font-bold hover:underline">
+                    cudagoplatform@gmail.com
                   </a>
                 </div>
               </div>
