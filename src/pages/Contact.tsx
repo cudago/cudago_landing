@@ -163,8 +163,8 @@ export const Contact = () => {
                   <MapPin size={24} />
                 </div>
                 <div>
-                  <h4 className="font-extrabold text-on-surface text-base mb-1">Operations Office</h4>
-                  <p className="text-sm text-on-surface-variant">Pune, Maharashtra, India</p>
+                  <h4 className="font-extrabold text-on-surface text-base mb-1">Registered Office</h4>
+                  <p className="text-sm text-on-surface-variant">Sr. No. 54/2, Annabhau Sathe Nagar, Parvati, Pune – 411009, Maharashtra</p>
                 </div>
               </div>
             </div>

@@ -3,10 +3,19 @@ import { PageLayout } from '../components/PageLayout';
 export const TermsOfService = () => {
   return (
     <PageLayout title="Terms of Service" lastUpdated="June 27, 2026" useProse maxWidth="max-w-4xl">
+      <section className="mb-8 p-5 bg-surface-container-low rounded-2xl border border-surface-container-high">
+        <h2 className="text-lg font-bold mb-2">Company Information</h2>
+        <p className="text-sm leading-relaxed">
+          <strong>Legal Entity:</strong> CUDAGO VENTURES PRIVATE LIMITED<br />
+          <strong>CIN:</strong> U63122PN2026PTC262010<br />
+          <strong>Registered Address:</strong> Sr. No. 54/2, Annabhau Sathe Nagar, Parvati, Pune – 411009, Maharashtra
+        </p>
+      </section>
+
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
         <p>
-          By accessing or using the Cudago website, Cudago customer app, or Cudago Partner app, you agree to these Terms of Service. If you do not agree, do not use Cudago. These terms apply to customers, service providers, visitors, and anyone who uses our services.
+          By accessing or using the Cudago website, Cudago customer app, or Cudago Partner app, you agree to these Terms of Service as entered into with CUDAGO VENTURES PRIVATE LIMITED ("Cudago," "we," "us," or "our"). If you do not agree, do not use Cudago. These terms apply to customers, service providers, visitors, and anyone who uses our services.
         </p>
       </section>
 
@@ -90,10 +99,17 @@ export const TermsOfService = () => {
         </p>
       </section>
 
-      <section>
-        <h2 className="text-2xl font-bold mb-4">13. Contact</h2>
+      <section className="mb-8">
+        <h2 className="text-2xl font-bold mb-4">13. Governing Law</h2>
         <p>
-          For questions about these Terms, contact us at cudagoplatform@gmail.com.
+          These Terms shall be governed by and construed in accordance with the laws of India. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the courts in Pune, Maharashtra.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-bold mb-4">14. Contact</h2>
+        <p>
+          For questions about these Terms, contact CUDAGO VENTURES PRIVATE LIMITED at cudagoplatform@gmail.com.
         </p>
       </section>
     </PageLayout>

@@ -4,10 +4,19 @@ import { Link } from 'react-router-dom';
 export const PrivacyPolicy = () => {
   return (
     <PageLayout title="Privacy Policy" lastUpdated="June 27, 2026" useProse maxWidth="max-w-4xl">
+      <section className="mb-8 p-5 bg-surface-container-low rounded-2xl border border-surface-container-high">
+        <h2 className="text-lg font-bold mb-2">Company Information</h2>
+        <p className="text-sm leading-relaxed">
+          <strong>Legal Entity:</strong> CUDAGO VENTURES PRIVATE LIMITED<br />
+          <strong>CIN:</strong> U63122PN2026PTC262010<br />
+          <strong>Registered Address:</strong> Sr. No. 54/2, Annabhau Sathe Nagar, Parvati, Pune – 411009, Maharashtra
+        </p>
+      </section>
+
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">1. Scope</h2>
         <p>
-          This Privacy Policy explains how Cudago collects, uses, discloses, stores, and protects information when you use the Cudago website, the Cudago customer app, and the Cudago Partner app. The customer app helps users discover, book, pay for, and manage home services. The partner app helps service providers manage jobs, availability, earnings, wallet activity, support, and verification.
+          This Privacy Policy explains how CUDAGO VENTURES PRIVATE LIMITED ("Cudago," "we," "us," or "our") collects, uses, discloses, stores, and protects information when you use the Cudago website, the Cudago customer app, and the Cudago Partner app. The customer app helps users discover, book, pay for, and manage home services. The partner app helps service providers manage jobs, availability, earnings, wallet activity, support, and verification.
         </p>
       </section>
 
@@ -96,10 +105,17 @@ export const PrivacyPolicy = () => {
         </p>
       </section>
 
-      <section>
+      <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">11. Contact Us</h2>
         <p>
           For privacy questions, account deletion help, or data requests, contact us at cudagoplatform@gmail.com.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-bold mb-4">12. Grievance Officer</h2>
+        <p>
+          In accordance with the Information Technology Act, 2000 and the rules made thereunder, the Grievance Officer for the purpose of this Privacy Policy is reachable at cudagoplatform@gmail.com. Any grievances or complaints relating to the processing of information should be directed to this address. We will acknowledge your complaint within 24 hours and resolve it within 30 days.
         </p>
       </section>
     </PageLayout>

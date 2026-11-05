@@ -87,9 +87,16 @@ export const Footer = () => {
 
         {/* Bottom copyright / local tagline row */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs md:text-sm text-on-surface-variant font-medium">
-          <p>© 2026 Cudago. All rights reserved.</p>
+          <p>© 2026 CUDAGO VENTURES PRIVATE LIMITED. All rights reserved.</p>
           <p className="flex items-center gap-1.5 text-center sm:text-right">
             <span>Home services made local. Built with 🧡 in Pune.</span>
+          </p>
+        </div>
+
+        {/* Legal credentials */}
+        <div className="mt-6 pt-4 border-t border-surface-container-high text-center">
+          <p className="text-[10px] md:text-[11px] text-on-surface-variant/60 leading-relaxed tracking-wide">
+            CIN: U63122PN2026PTC262010 &nbsp;|&nbsp; Registered Office: Sr. No. 54/2, Annabhau Sathe Nagar, Parvati, Pune – 411009, Maharashtra
           </p>
         </div>
       </div>
